@@ -7,9 +7,9 @@
                 <h2 class="mb-3">Products</h2>
             </div>
             <div class="pull-right">
-                {{-- @can('product-create') --}}
+                @can('products-create')
                 <a class="btn btn-success" href="{{ route('products.create') }}"> + Create New Product</a>
-                {{-- @endcan --}}
+                @endcan
             </div>
         </div>
     </div>
